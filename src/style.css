@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cards {
+  background-color: white;
+  width: 30vw;
+  height: 40vw;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 2vw;
+}
+.cardSuits {
+  height: 20%;
+}
+.number {
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+.number p {
+  text-align: center;
+  font-size: 16vw;
+}
+#suits {
+  font-size: 4vw;
+  padding: 1vw;
+}
+.suitTop {
+  text-align: start;
+}
+.suitsBotton {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.♦,
+.♥ {
+  color: red;
+}
+
+.♠,
+.♣ {
+  color: black;
+}
